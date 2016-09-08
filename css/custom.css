@@ -1,0 +1,33 @@
+body {
+	background-color: #e5e5e5;	
+}
+
+.navbar-nav {
+float: right;
+}
+
+.center {
+	width: 100%;
+	margin: 100px auto;
+}
+
+.page {
+	height: 720px;
+}
+
+.form-control {
+	width: 75%;
+	height: 50px;
+	float: left;
+	margin: 0 5px 0 0;
+	display: inline-block;
+
+}
+
+.btnYellow {
+background-color: orange;
+display: inline-block;
+width: 20%;
+height: 50px;
+
+}
