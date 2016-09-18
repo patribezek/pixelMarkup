@@ -1,18 +1,18 @@
 body {
-	background-color: #e5e5e5;	
+	//background-color: #e5e5e5;	
 }
 
 .navbar-nav {
-float: right;
+	float: right;
 }
 
 .center {
 	width: 100%;
-	margin: 100px auto;
+	margin: 40px auto;
 }
 
 .page {
-	height: 720px;
+	/*height: 720px;*/
 }
 
 .form-control {
@@ -25,9 +25,52 @@ float: right;
 }
 
 .btnYellow {
-background-color: orange;
-display: inline-block;
-width: 20%;
-height: 50px;
+	display: inline-block;
+	width: auto;
+	height: 50px;
+	padding: 0 20px;
 
+}
+
+.calculating {
+	padding: 20px;
+}
+
+
+/* FLIP */
+
+.card {
+	background-color: gray;
+
+}
+.hide {
+	display: none;
+}
+
+/**/
+
+/* END FLIP  */
+
+/* RATING */
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+/*END RATING*/
+
+.photo {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
 }

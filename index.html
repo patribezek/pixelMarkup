@@ -58,7 +58,7 @@
         <!-- Page Content -->
         <div class="container page">
           <h2>Upload your psd file and check out the price</h2>
-          <h3>Price per pixel $ 0,005!</h3>
+          <!-- <h3>Price per pixel $ 0,005!</h3> -->
           <div class="center ">
             <input class="form-control text-center" type="text" placeholder="Your file">
             <button class="btn btnYellow">Upload your file!</button>
@@ -78,38 +78,78 @@
             <aside class="col-md-4">
 
 
-              <div class="flip-container " >
-                <div class="flipper">
-                  <div class="front">
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                        Wordpress Theme
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >
-                        Joomla Theme
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >
-                        Plain HTML CSS JavaScript
-                      </label>
-                    </div>
-                    
-                    <div class="result">Total <span>$ 60</span></div>
+
+
+              <!-- <div class="flip-container " > -->
+              <div class="card ">
+                <div class="front ">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Wordpress Theme
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >
+                      Joomla Theme
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >
+                      Plain HTML CSS JavaScript
+                    </label>
                   </div>
 
-                  <div class="back">
+                  <div class="result">
+                    <p>Total </p><span>$ 60</span>
+                  </div>
+                  <button class="btn btnYellow flipme">Continue</button>
+                </div>
 
-                   
+                <div class="back hide">
+                  <div class="container-profesionals">
+                    <h3>Profesionals</h3>
+
+                    <div class="profesional">
+                      <img  class="photo" src="http://lorempixel.com/150/150/" alt="">
+                      <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                      </div>
+                      <h3>Name</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque neque, quia aliquam</p>
+                      <div class="btn">Choose</div>
+                    </div>
+                    
+                    <div class="profesional">
+                      <img  class="photo" src="http://lorempixel.com/150/150/" alt="">
+                      <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                      </div>
+                      <h3>Name</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque neque, quia aliquam</p>
+                      <div class="btn">Choose</div>
+                    </div>
+
+                    <div class="profesional">
+                      <img  class="photo" src="http://lorempixel.com/150/150/" alt="">
+                      <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                      </div>
+                      <h3>Name</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque neque, quia aliquam</p>
+                      <div class="btn">Choose</div>
+                    </div>
+
 
                   </div>
                 </div>
               </div>
+              <!-- </div> -->
+
+
+
 
 
             </aside>
@@ -117,10 +157,11 @@
         </div>
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
+        <script src="js/custom.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js">
+        </script>
+        
 
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
       </body>
       </html>
