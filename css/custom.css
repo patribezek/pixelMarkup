@@ -31,7 +31,7 @@ body {
 
 /* FLIP */
 
-.card {
+.card, .markup {
 	border: 2px solid gray;
 	border-radius: 5px;
 	height: 600px;
@@ -41,7 +41,7 @@ body {
 
 .hide {	display: none; }
 
-.front, .back { padding: 20px; } 
+.front, .back { padding: 0 20px 20px; } 
 
 /* END FLIP  */
 
@@ -74,3 +74,4 @@ figure {
 	position: relative;
 	margin: 50px auto 10px;					
 }
+
