@@ -11,10 +11,6 @@ body {
 	margin: 40px auto;
 }
 
-.page {
-	/*height: 720px;*/
-}
-
 .form-control {
 	width: 75%;
 	height: 50px;
@@ -29,48 +25,52 @@ body {
 	width: auto;
 	height: 50px;
 	padding: 0 20px;
-
 }
 
-.calculating {
-	padding: 20px;
-}
-
+.calculating { 	padding: 20px; }
 
 /* FLIP */
 
 .card {
-	background-color: gray;
-
+	border: 2px solid gray;
+	border-radius: 5px;
+	height: 600px;
+	overflow: auto;
+	margin-bottom: 20px;
 }
-.hide {
-	display: none;
-}
 
-/**/
+.hide {	display: none; }
+
+.front, .back { padding: 20px; } 
 
 /* END FLIP  */
 
 /* RATING */
 .rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: center;
 }
+
 .rating > span {
-  display: inline-block;
-  position: relative;
-  width: 1.1em;
+	display: inline-block;
+	position: relative;
+	width: 1.1em;
 }
+
 .rating > span:hover:before,
 .rating > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
+	content: "\2605";
+	position: absolute;
 }
-
 /*END RATING*/
 
-.photo {
+figure {
+	width: 100px;
+	height: 100px;
+	float: none;
+	overflow: hidden;
 	border-radius: 50%;
-	width: 150px;
-	height: 150px;
+	position: relative;
+	margin: 50px auto 10px;					
 }
